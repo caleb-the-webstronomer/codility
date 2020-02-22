@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/trainingWJU23Y-NWF/
 
-https: function solution(N) {
+function solution(N) {
   // write your code in JavaScript (Node.js 8.9.4)
   let binary = N.toString(2),
     zeros = 0,

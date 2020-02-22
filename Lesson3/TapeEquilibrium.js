@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/trainingHX5VR5-A2Q/
 
-https: function solution(A) {
+function solution(A) {
   // write your code in JavaScript (Node.js 8.9.4)
   var retval;
 

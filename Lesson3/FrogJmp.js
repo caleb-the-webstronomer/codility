@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/trainingBT2TNG-JE4/
 
-https: function solution(X, Y, D) {
+function solution(X, Y, D) {
   // write your code in JavaScript (Node.js 8.9.4)
   let a = Y - X;
   let b = Math.floor(a / D);

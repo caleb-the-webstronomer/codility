@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/trainingDAYD77-EDJ/
 
-https: function solution(A, K) {
+function solution(A, K) {
   if (A.length === K || K === 0 || A.length === 0) {
     return A;
   }

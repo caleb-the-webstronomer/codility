@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/training43JSU3-G28/
 
-https: function solution(A) {
+function solution(A) {
   let result = 0;
 
   for (let element of A) {

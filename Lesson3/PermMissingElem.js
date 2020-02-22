@@ -1,6 +1,6 @@
 //app.codility.com/demo/results/trainingRTW4YP-MAQ/
 
-https: function solution(A) {
+function solution(A) {
   // write your code in JavaScript (Node.js 8.9.4)
   var size = A.length;
   var sum = ((size + 1) * (size + 2)) / 2;
