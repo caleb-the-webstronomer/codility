@@ -1,4 +1,17 @@
+//https://app.codility.com/demo/results/training5RND3K-KDW/
+
 //https://app.codility.com/demo/results/trainingU6TSYQ-DTY/
+
+function solution(A) {
+  const found = new Set();
+  for (const num of A) {
+    if (found.has(num) || num > A.length) {
+      return 0;
+    }
+    found.add(num);
+  }
+  return 1;
+}
 
 function solution(A) {
   var N = A.length;
